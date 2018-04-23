@@ -42,7 +42,6 @@ public class Triangulo {
 	}
 	
 	private static boolean esEscaleno(int[] lados) {
-
 		return lados[0] != lados[1] && lados[1] != lados[2] && lados[0] != lados[2];
 	}
 }
